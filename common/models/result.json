@@ -1,0 +1,25 @@
+{
+  "name": "Result",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "valid": {
+      "type": "boolean",
+      "required": true
+    },
+    "coordinator": {
+      "type": "geopoint"
+    },
+    "driver_id": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

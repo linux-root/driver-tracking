@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "driverDataSource": {
+    "host": "ds251845.mlab.com",
+    "port": 51845,
+    "url": "mongodb://ngocson:bananhkhanh69@ds251845.mlab.com:51845/driver-tracking",
+    "database": "driver-tracking",
+    "password": "bananhkhanh69",
+    "name": "driverDataSource",
+    "user": "ngocson",
+    "connector": "mongodb"
+  }
+}
