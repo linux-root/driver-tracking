@@ -16,6 +16,10 @@
     "driver_id": {
       "type": "string",
       "required": true
+    },
+    "car_id": {
+      "type": "string",
+      "required": true
     }
   },
   "validations": [],

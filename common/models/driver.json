@@ -12,7 +12,7 @@
     },
     "profile_image": {
       "type": "buffer",
-      "required": true
+      "required": false
     },
     "date_of_birth": {
       "type": "date",
@@ -32,7 +32,16 @@
     }
   },
   "validations": [],
-  "relations": {},
-  "acls": [],
+  "relations": {
+  },
+  "acls": [
+    {
+      "accessType": "READ",
+      "principalType": "ROLE",
+      "principalId": "admin",
+      "permission": "ALLOW",
+      "property": "find"
+    }
+  ],
   "methods": {}
 }
